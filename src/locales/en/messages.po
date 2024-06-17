@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-06-14 15:45+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+
+#: src/components/Cookies/index.tsx
+msgid "Reject"
+msgstr "Reject"
+
+#: src/layouts/Header/index.tsx
+msgid "Download the App"
+msgstr "Download the App"
+
+#: src/components/StyledForm/index.tsx
+msgid "Business email"
+msgstr "Business email"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Name"
+msgstr "Name"
+
+#: src/components/StyledForm/index.tsx
+msgid "Partner with us"
+msgstr "Partner with us"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Please complete all required fields."
+msgstr "Please complete all required fields."
+
+#: src/components/Cookies/index.tsx
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: src/components/StyledForm/index.tsx
+msgid "Invest in us"
+msgstr "Invest in us"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Invalid email"
+msgstr "Invalid email"
+
+#: src/layouts/Footer/index.tsx
+msgid "Terms of use"
+msgstr "Terms of use"
+
+#: src/components/StyledForm/index.tsx
+msgid "Company website"
+msgstr "Company website"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Email"
+msgstr "Email"
+
+#: src/components/StyledForm/index.tsx
+msgid "Company name"
+msgstr "Company name"
+
+#: src/layouts/Footer/index.tsx
+msgid "Privacy policy"
+msgstr "Privacy policy"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Telegram"
+msgstr "Telegram"
+
+#: src/layouts/Footer/index.tsx
+msgid "Docs"
+msgstr "Docs"
+
+#: src/components/StyledForm/index.tsx
+msgid "Last Name"
+msgstr "Last Name"
+
+#: src/layouts/Footer/index.tsx
+msgid "Blog"
+msgstr "Blog"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Invalid phone number"
+msgstr "Invalid phone number"
+
+#: src/components/Cookies/index.tsx
+msgid "Accept"
+msgstr "Accept"
+
+#: src/pages/Activity/AusChampionship/components/IndexTeam.tsx
+#: src/pages/Activity/AusChampionship/components/IndexTeam.tsx
+msgid "votes"
+msgstr "votes"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Submit"
+msgstr "Submit"
+
+#: src/components/StyledForm/index.tsx
+msgid "How do you want to work with us?"
+msgstr "How do you want to work with us?"
+
+#: src/layouts/Footer/index.tsx
+msgid "Copyright © 2024 XXXX Enterprise Limited. \"XXXX ?\" logo and logotype are trademarks of XXXX Enterprise Limited."
+msgstr "Copyright © 2024 XXXX Enterprise Limited. \"XXXX ?\" logo and logotype are trademarks of XXXX Enterprise Limited."
+
+#: src/components/StyledForm/index.tsx
+msgid "Thanks for submitting the form."
+msgstr "Thanks for submitting the form."
+
+#: src/components/StyledForm/index.tsx
+msgid "First Name"
+msgstr "First Name"
+
+#: src/pages/Activity/AusChampionship/components/IndexTeam.tsx
+#: src/pages/Activity/AusChampionship/components/IndexTeam.tsx
+msgid "Vote"
+msgstr "Vote"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Thank you for submitting your proposal for cooperation. We will review your submission and get back to you shortly."
+msgstr "Thank you for submitting your proposal for cooperation. We will review your submission and get back to you shortly."
+
+#: src/components/StyledForm/index.tsx
+msgid "Please select"
+msgstr "Please select"
+
+#: src/components/StyledForm/index.tsx
+msgid "Your name"
+msgstr "Your name"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Already submitted"
+msgstr "Already submitted"
+
+#: src/layouts/Footer/index.tsx
+msgid "Community guidelines"
+msgstr "Community guidelines"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Invalid character length"
+msgstr "Invalid character length"
+
+#: src/components/Cookies/index.tsx
+msgid "Our website uses cookies. By continuing to navigate, you consent to our use of cookies as detailed in our"
+msgstr "Our website uses cookies. By continuing to navigate, you consent to our use of cookies as detailed in our"
+
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+#: src/components/StyledForm/index.tsx
+msgid "Phone"
+msgstr "Phone"

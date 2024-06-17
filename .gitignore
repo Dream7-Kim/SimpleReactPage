@@ -1,0 +1,36 @@
+.vscode
+.DS_Store
+node_modules
+local
+dist
+dev-dist
+components.d.ts
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json*
+
+# Editor directories and files
+.idea
+.husky
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.zip
+.eslintcache
+.stylelintcache
+
+# lingui
+/src/locales/**/*.js
+/src/locales/_build/
+/src/config/abis/types

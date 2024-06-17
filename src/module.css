@@ -1,0 +1,171 @@
+.play-button {
+	align-items: center;
+	background: none;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 1.5rem;
+	height: 1rem;
+	justify-content: center;
+	margin-right: 1rem;
+	padding: 0;
+	width: 1rem;
+}
+
+.play-button:before {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NiIgaGVpZ2h0PSIxMDQiIGZpbGw9Im5vbmUiPjxwYXRoIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjUuNSIgZD0iTTMuNTgzIDMuMzMzdjk3LjMzNEw4Mi42NjcgNTJ6Ii8+PC9zdmc+);
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	height: 1rem;
+	width: 1rem;
+}
+
+.video-section-container.playing .play-button:before {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik05IDVIN2ExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoMmExIDEgMCAwIDAgMS0xVjZhMSAxIDAgMCAwLTEtMU0xNyA1aC0yYTEgMSAwIDAgMC0xIDF2MTJhMSAxIDAgMCAwIDEgMWgyYTEgMSAwIDAgMCAxLTFWNmExIDEgMCAwIDAtMS0xIi8+PC9zdmc+);
+	content: '';
+}
+
+.video-section-container {
+	min-height: 500px;
+	position: relative;
+}
+
+.video-section-container:not(.playing):before {
+	/* background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NiIgaGVpZ2h0PSIxMDQiIGZpbGw9Im5vbmUiPjxwYXRoIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjUuNSIgZD0iTTMuNTgzIDMuMzMzdjk3LjMzNEw4Mi42NjcgNTJ6Ii8+PC9zdmc+);
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	display: block;
+	height: 2rem;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 2rem;
+	z-index: 10; */
+}
+
+/* 
+.video-section-container video {
+	display: block;
+	height: 100% !important;
+	left: 50% !important;
+	position: absolute;
+	top: 50% !important;
+	transform: translate(-50%, -50%);
+	width: auto !important;
+	max-width: fit-content;
+} */
+/* 
+.video-section-container .vjs-poster .vjs-poster img {
+	object-fit: contain;
+	max-width: fit-content;
+	width: auto;
+	display: block;
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+} */
+
+.video-section-container
+	.customize-player-outbox
+	.customize-player.video-js
+	.vjs-big-play-button {
+	/* visibility: hidden; */
+}
+
+.video-controls-overlay {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 2rem;
+}
+
+.video-section-container .controls {
+	align-items: center;
+	display: flex;
+	max-width: 100%;
+	width: 550px;
+}
+
+.video-section-container .progress-wrapper {
+	flex-grow: 1;
+}
+
+.video-section-container .progress-wrapper progress {
+	border-radius: 2rem;
+	cursor: pointer;
+	display: block;
+	height: 1rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+.video-section-container .progress-wrapper progress[value] {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+.video-section-container
+	.progress-wrapper
+	progress[value]::-webkit-progress-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-section-container
+	.progress-wrapper
+	progress[value]::-webkit-progress-value {
+	background-color: #fff;
+}
+
+.video-section-container .progress-wrapper progress[value]::-moz-progress-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+	/* .video-section-container video {
+
+		display: block;
+		height: 100%;
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: auto;
+		max-width: fit-content;
+	} */
+
+	/* .video-section-container .vjs-poster .vjs-poster img {
+		object-fit: contain;
+		max-width: fit-content;
+		width: auto;
+		display: block;
+		height: 100%;
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	} */
+
+	.video-controls-overlay {
+		top: 4rem;
+	}
+
+	.video-section-container:not(.playing):before {
+		height: 5rem;
+		width: 5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.video-section-container .cta-button {
+		font-size: 0.875rem;
+	}
+}
